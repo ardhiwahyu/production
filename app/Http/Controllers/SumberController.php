@@ -60,8 +60,7 @@ class SumberController extends Controller
                     'nama_sumber' => $sumber->nama_sumber,
                     'lokasi' => $sumber->lokasi,
                     'jenis_produk' => $sumber->jenis_produk,
-                    'hasil_produksi' => $sumber->hasil_produksi,
-                    'tahun' => $sumber->tahun,
+                    'HistoryProduksi' => $sumber->historyProduksi
                 ],
             ],
         ], 200);

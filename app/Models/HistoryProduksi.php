@@ -19,8 +19,7 @@ class HistoryProduksi extends Model
 
     protected $hidden = [];
 
-    public function sumber()
-    {
-        return $this->belongsTo(Sumber::class, $sumberId);
+    public function sumber(){
+        return $this->belongsTo(Sumber::class, 'sumberId');
     }
 }
