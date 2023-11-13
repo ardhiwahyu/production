@@ -22,7 +22,7 @@ class Sumber extends Model
      */
     protected $hidden = [];
 
-    public function HistoryProduksi(){
+    public function history_produksi(){
         return $this->hasMany(HistoryProduksi::class, 'sumberId');
     }
     
